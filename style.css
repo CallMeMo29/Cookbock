@@ -4,10 +4,17 @@ body {
 }
 
 /* Chris */
-.navbar-nav .nav-item{
-  color: #4F80E1;
+.navbar-nav .nav-item {
+  color: #4f80e1;
 }
 
 /* Khalid */
 
 /* Mo */
+.contact {
+  border: solid 2px green;
+}
+
+.fLeft {
+  border: solid 4px red;
+}
