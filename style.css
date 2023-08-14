@@ -9,6 +9,75 @@ body {
 }
 
 /* Khalid */
+main {
+  /* border: 1px solid red; */
+  padding: 20px;
+  background-color: beige;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+
+main h2 {
+  /* border: 1px solid red; */
+  font-size: 24px;
+  width: 100%;
+  /* text-align: center; */
+}
+
+main h3 {
+  /* border: 1px solid red; */
+  font-size: 18px;
+  width: 100%;
+  /* text-align: center; */
+}
+
+div img {
+  /* border: 1px solid red; */
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+.button-container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  justify-content: center;
+  /* background-color: rgb(0, 0, 0); */
+  border-radius: 10px;
+}
+
+.button {
+  padding: 10px 25px;
+  background-color: #f4511e;
+  color: #000000;
+  border-bottom: #000000;
+  border-right: black;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  transition: 0.2s;
+  /* border: none; */
+}
+
+.button:hover {
+  opacity: 1;
+}
 
 /* Mo */
 .contact {
