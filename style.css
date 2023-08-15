@@ -4,8 +4,8 @@ body {
 }
 
 /* Chris */
-.navbar-nav .nav-item{
-  color: #4F80E1;
+.navbar-nav .nav-item {
+  color: #4f80e1;
 }
 
 
@@ -24,6 +24,17 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+#carouselExampleInterval img {
+  border: solid 1px green;
+  width: 650px;
+  height: 400px;
+  object-fit: contain;
+
+}
+#carouselExampleInterval {
+  width: 70%;
 }
 
 .container {
@@ -45,28 +56,33 @@ main h3 {
   width: 100%;
   /* text-align: center; */
 }
-
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+  
+}
 div img {
   /* border: 1px solid red; */
   max-width: 100%;
   height: auto;
   margin-top: 10px;
   border-radius: 10px;
-  opacity: 1;
+
 }
 
-img:hover {
-  opacity: 0.8;
-}
 
 .button-container {
   /* border: 1px solid red; */
   display: flex;
+  width: 28%;
   flex-direction: column;
   margin: 15px;
   justify-content: center;
   /* background-color: rgb(0, 0, 0); */
   border-radius: 10px;
+  justify-self: start;
 }
 
 .button {
@@ -80,6 +96,7 @@ img:hover {
   margin-bottom: 10px;
   opacity: 0.8;
   transition: 0.2s;
+  width: 70%;
   /* border: none; */
 }
 
