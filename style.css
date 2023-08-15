@@ -27,7 +27,6 @@ main {
 }
 
 #carouselExampleInterval img {
-  border: solid 1px green;
   width: 650px;
   height: 400px;
   object-fit: contain;
