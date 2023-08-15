@@ -4,8 +4,8 @@ body {
 }
 
 /* Chris */
-.navbar-nav .nav-item{
-  color: #4F80E1;
+.navbar-nav .nav-item {
+  color: #4f80e1;
 }
 
 /* Khalid */
@@ -78,5 +78,31 @@ img:hover {
 .button:hover {
   opacity: 1;
 }
-
 /* Mo */
+.contact {
+  border: solid 2px green;
+  background-color: beige;
+}
+
+.fLeft {
+  border: solid 4px red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  border-radius: 4px;
+  border-color: bisque;
+  margin: 10px;
+}
+
+aside {
+  border: solid 4px rgb(34, 0, 255);
+}
