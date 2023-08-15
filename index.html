@@ -15,12 +15,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Barlow"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,17 +27,16 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
-    <title>Cookbock</title>
   </head>
   <body>
     <!-- Chris -->
     <header>
       <nav class="navbar-light bg-light navbar navbar-expand-md">
         <a class="navbar-brand"
-          ><img src="ChimOmO-Demo-gedreht.png" height="70"
+          ><img src="ChimOmO-Demo-gedreht.png" alt="CHimOmO Logo" height="70"
         /></a>
         <a class="navbar-brand"
-          ><img src="Chimomo Schriftzug klein.png" height="35"
+          ><img src="Chimomo Schriftzug klein.png" alt="CHimOmO" height="35"
         /></a>
 
         <button
@@ -61,15 +55,14 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarSupportedContent"
         >
-          <!-- Make the follow elements into a nav component: -->
           <ul class="navbar-nav" style="font-size: 30px">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Rezepte</a>
+              <a class="nav-link" href="Rezepte.html">Rezepte</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -80,22 +73,15 @@
 
       <div class="row">
         <div class="col">
+          <img src="/img/image.png" alt="CHimOmO Logo" class="logo-img" />
+        </div>
+        <div class="col">
           <div class="jumbotron p-3" style="background-color: #efb90b">
             <h1 class="text-center" style="font-size: 90px">ChimOmO</h1>
             <hr />
             <h2 class="text-center">
               Wo Geschmack und Chaos eine köstliche Verbindung eingehen
             </h2>
-            <hr />
-            <p class="text-center">
-              Das erste Online-Kochbuch des revolutionären neuen Food-Genres:
-              KaalFuFoo. Es vereint das Beste Deutschlands und dem
-              NahenOsten:<br />
-              Ein Geschmacksfeuerwerk, aber natürlich sicherheitsgeprüft durch
-              den TÜV nach Din-20023!<br />
-              Stabil wie eine deutsche Eiche, aber doch nicht langweilig durch
-              wilde orientalische Gewürze!
-            </p>
             <hr />
             <h3 class="text-center">
               Lasst uns die Grenzen der Kulturen aufbrechen und uns an einem
@@ -113,66 +99,112 @@
         <h2>Recept des Tages</h2>
         <h3>Der unglaubliche cremige NY Cheesecake</h3>
         <div class="main-container">
-        <div class="button-container">
-          <button class="button">Vorspeisen</button>
-          <button class="button">Hauptgerichte</button>
-          <button class="button">Deserts</button>
-          <button class="button">Favorites</button>
-        </div>
-        <div
-          id="carouselExampleInterval"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img
-                src="./img/tomatensuppe,id=9706d5a3,b=lecker,w=1600,rm=sk.gif"
-                class="d-block w-100"
-                alt="..." width="250px"
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img
-                src="./img/csm_FalafelRezept_64db846c72.webp"
-                class="d-block w-100"
-                alt="..." width="250px"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./img/NY-Cheesecake-15.jpg"
-                class="d-block w-100"
-                alt="..." width="250px"
-              />
-            </div>
+          <div class="button-container">
+            <button class="button">Vorspeisen</button>
+            <button class="button">Hauptgerichte</button>
+            <button class="button">Deserts</button>
+            <button class="button">Favorites</button>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="prev"
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="./img/tomatensuppe,id=9706d5a3,b=lecker,w=1600,rm=sk.gif"
+                  class="d-block w-100"
+                  alt="..."
+                  width="250px"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="./img/csm_FalafelRezept_64db846c72.webp"
+                  class="d-block w-100"
+                  alt="..."
+                  width="250px"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/NY-Cheesecake-15.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                  width="250px"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
     </main>
-<script src="index.js"></script>
+    <script src="index.js"></script>
     <!-- Mo -->
     <footer>
-      <section class="form"></section>
+      <section class="contact">
+        <div class="row">
+          <div class="col-4">
+            <div class="fLeft">
+              <form action="#">
+                <fieldset>
+                  <input type="text" class="ipa" id="name" placeholder="Name" />
+                  <input
+                    type="text"
+                    class="ipa"
+                    id="email"
+                    placeholder="Email"
+                  />
+                  <input
+                    type="text"
+                    class="ipa"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                  <textarea
+                    name="ChimOmO"
+                    class="ipa"
+                    id="comment"
+                    cols="20"
+                    rows="5"
+                  ></textarea>
+                </fieldset>
+                <button>Senden</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <aside>
+          <div class="row">
+            <div class="col-4"></div>
+          </div>
+        </aside>
+      </section>
     </footer>
   </body>
 </html>

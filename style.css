@@ -8,6 +8,14 @@ body {
   color: #4f80e1;
 }
 
+
+/*
+.logo-img {
+  max-width: 100%;
+  height: auto;
+}
+*/
+
 /* Khalid */
 main {
   /* border: 1px solid red; */
@@ -95,5 +103,31 @@ div img {
 .button:hover {
   opacity: 1;
 }
-
 /* Mo */
+.contact {
+  border: solid 2px green;
+  background-color: beige;
+}
+
+.fLeft {
+  border: solid 4px red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  border-radius: 4px;
+  border-color: bisque;
+  margin: 10px;
+}
+
+aside {
+  border: solid 4px rgb(34, 0, 255);
+}
