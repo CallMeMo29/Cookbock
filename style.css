@@ -1,4 +1,4 @@
-body {
+* {
   font-family: "Barlow", sans-serif;
   font-family: "Playfair Display", serif;
 }
@@ -193,16 +193,15 @@ div img {
 }
 /* Mo */
 .contact {
-  border: solid 2px green;
-  background-color: beige;
+  background-color: rgba(245, 242, 220, 0.367);
 }
 
 .fLeft {
-  border: solid 4px red;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 20px;
+  width: auto;
 }
 
 fieldset {
@@ -212,10 +211,52 @@ fieldset {
 
 #name {
   border-radius: 4px;
-  border-color: bisque;
+  border-color: #f4511e;
   margin: 10px;
 }
 
-aside {
-  border: solid 4px rgb(34, 0, 255);
+#email {
+  border-radius: 4px;
+  border-color: #f4511e;
+  margin: 10px;
+}
+
+#subject {
+  border-radius: 4px;
+  border-color: #f4511e;
+  margin: 10px;
+}
+
+#comment {
+  border-radius: 4px;
+  border-color: #f4511e;
+  margin: 10px;
+}
+
+#send {
+  padding: 10px 25px;
+  background-color: #f4511e;
+  color: #000000;
+  border-bottom: #000000;
+  border-right: black;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  opacity: 0.8;
+  transition: 0.2s;
+  width: 50%;
+}
+
+#fRight {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  align-items: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  text-decoration-line: underline;
 }
